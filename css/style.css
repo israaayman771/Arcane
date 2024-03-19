@@ -1,0 +1,158 @@
+/*reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    /*color*/
+    --black:#303030;
+    --gray:#909090;
+}
+
+/*#region header*/
+a ,ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.Container{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 3rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Ul-links ,.Ul-social{
+    display: flex;
+    gap: 32px;
+}
+.a-links{
+    color: #303030;
+}
+/*#endregion header*/
+.Main{
+    display: flex;
+    gap: 5rem;
+}
+.h1-img{
+    display: flex;
+    flex-direction: column;
+    gap: 50px 
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald';
+    font-size: 70px;
+    font-weight: 700;
+    color: var(--black);
+}
+.col-4{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/12*4);
+}
+.Name{
+    width: 100%;
+    text-align: center;
+}
+.img{
+    background-image: url(../img/placeholder\ gray.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.img img{
+    width: 100%;
+}
+.Service{
+    gap: 32px;
+}
+.h3{
+    font-family: 'Oswald';
+    font-size: 25px;
+    font-weight: 600;
+}
+.para{
+    width: 55%;
+    font-size: 18px;
+    font-weight: 400;
+    color:var(--gray);
+
+}
+.Web ,.UI-UX ,.Web-Co{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: 'Oswald';
+}
+.Code ,.Layout ,.User{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: 'Quattrocento';
+}
+.Jakarta{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 4rem;
+}
+
+.h2{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+}
+.h2-p ,.h2-p2{
+    font-size: 14px;
+    width: 91%;
+    font-family: 'Quattrocento';
+    font-weight: 400;
+    color: var(--gray);
+}
+h4 ,.h2{
+    font-family: 'Oswald';
+}
+.a-jakarta{
+    padding: 15px;
+    background-color:var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 25%;
+}
+.Hire-me{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+.btm{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 32px;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.p-features{
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--black);
+}
+span{
+    font-size: 15px;
+    color: var(--gray);
+}
